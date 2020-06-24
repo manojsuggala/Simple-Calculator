@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+body{
+    background-color: #e067eb;
+}
+
+.typed-words {
+ color: rgb(241, 12, 241);
+}
+    h1{  
+ font-size:25px;
+ width:40%;
+ padding-left: 50px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-left: 300px;
+ margin-top: 50px;
+ border-left: 70px solid red;
+ background-color: rgb(197, 162, 162);
+ border-right: 70px solid red;
+ border-radius:10px;
+}
+h2{
+    text-align: center;
+}
+    </style>
+
+</head>
+<body>
+    
+    <h1 align="center"><strong> Simple Calculator</strong></h1> 
+    <marquee behaviour="scroll"direction="left"> <h2>Calculator</h2></marquee><br>
+         
+<br>
+         <div class="container">
+             <br>
+             <br>
+            <h2><a style="text-decoration: none; color: #f1c40f; margin-left: 0.25rem;" href="" onclick="location.reload();">CALCULATOR</a></h2>
+            <div class="calculator">
+                <input type="text" name="screen" id="answer"><br>
+                <br><table>
+                    <tr>
+                        <td><button>(</button></td>
+                        <td><button>)</button></td>
+                        <td><button style="background-color: #e74c3c; font-weight: bold; color: #ecf0f1;">C</button></td>
+                        <td><button>%</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>7</button></td>
+                        <td><button>8</button></td>
+                        <td><button>9</button></td>
+                        <td><button>X</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>4</button></td>
+                        <td><button>5</button></td>
+                        <td><button>6</button></td>
+                        <td><button>-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>1</button></td>
+                        <td><button>2</button></td>
+                        <td><button>3</button></td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>0</button></td>
+                        <td><button style="font-weight: bold;">.</button></td>
+                        <td><button>/</button></td>
+                        <td><button style="background-color: #2ecc71; font-weight: bold; color: #ecf0f1;">=</button></td>
+                    </tr>
+                </table>
+                <hr style="max-width: 50vw;">
+               
+            </div>
+        </div>
+        <div id="turn">
+        PLEASE TURN YOUR DEVICE
+        </div>
+    </body>
+    <script src="cal.js"></script>
+
+</body>
+</html>
